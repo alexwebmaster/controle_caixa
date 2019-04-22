@@ -1,0 +1,77 @@
+{
+  "_from": "git+https://github.com/Visigo/CordovaClipboard.git",
+  "_id": "cordova-universal-clipboard@0.1.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-universal-clipboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/Visigo/CordovaClipboard.git",
+    "rawSpec": "https://github.com/Visigo/CordovaClipboard.git",
+    "saveSpec": "git+https://github.com/Visigo/CordovaClipboard.git",
+    "fetchSpec": "https://github.com/Visigo/CordovaClipboard.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Visigo/CordovaClipboard.git#7458ec77a3f738bc300615f5f436c95b9dea5e9e",
+  "_spec": "https://github.com/Visigo/CordovaClipboard.git",
+  "_where": "D:\\HTTP\\APPS\\photoShare",
+  "author": {
+    "name": "Verso Solutions LLC"
+  },
+  "bugs": {
+    "url": "https://github.com/Visigo/CordovaClipboard/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Visigo Software Consulting Inc.",
+      "email": "info@visigo.com",
+      "url": "http://www.visigo.com/"
+    },
+    {
+      "name": "Ranvir Singh",
+      "email": "er.ranvirsingh@gmail.com",
+      "url": "https://in.linkedin.com/in/singhranvir"
+    }
+  ],
+  "cordova": {
+    "id": "cordova-universal-clipboard",
+    "platforms": [
+      "ios",
+      "android",
+      "wp8",
+      "windows"
+    ]
+  },
+  "deprecated": false,
+  "description": "Clipboard management plugin for Cordova/PhoneGap",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/Visigo/CordovaClipboard#readme",
+  "keywords": [
+    "cordova",
+    "clipboard",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "name": "cordova-universal-clipboard",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Visigo/CordovaClipboard.git"
+  },
+  "version": "0.1.1"
+}

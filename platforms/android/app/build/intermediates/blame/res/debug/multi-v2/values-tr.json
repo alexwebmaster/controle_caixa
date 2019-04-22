@@ -1,0 +1,49 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/alex/Apps/photoshare/E:\\Users\\Alex\\HTTP\\APPS\\photoShare\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "/home/alex/Apps/photoshare/C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3505a873b4038b2c4f4d563257a3c3dd\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/alex/Apps/photoshare/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "map": [
+                {
+                    "source": "/home/alex/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7c0c0aec71122e8d315c7d3077cbbf36/res/values-tr/values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/alex/Apps/photoshare/D:\\HTTP\\APPS\\photoShare\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "/home/alex/Apps/photoshare/C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3505a873b4038b2c4f4d563257a3c3dd\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

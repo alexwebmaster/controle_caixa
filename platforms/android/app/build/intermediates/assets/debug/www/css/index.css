@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face{font-family:NexusSerif;src:url(../webfonts/nexusserifwebpro.woff) format("woff")}
+@font-face{font-family:NexusSerif;font-style:italic;src:url(../webfonts/nexusserifwebpro-italic.woff) format("woff")}
+@font-face{font-family:NexusSerif;font-weight:700;src:url(../webfonts/nexusserifwebpro-bold.woff) format("woff")}
+@font-face{font-family:NexusSerif;font-style:italic;font-weight:700;src:url(../webfonts/nexusserifwebpro-bolditalic.woff) format("woff")}
+@font-face{font-family:NexusSans;font-variant:small-caps;src:url(../webfonts/nexussansscwebpro.woff) format("woff")}
+@font-face{font-family:NexusSans;src:url(../webfonts/nexussanswebpro.woff) format("woff")}
+@font-face{font-family:NexusSans;font-style:italic;src:url(../webfonts/nexussanswebpro-italic.woff) format("woff")}
+@font-face{font-family:NexusSans;font-weight:700;src:url(../webfonts/nexussanswebpro-bold.woff) format("woff")}
+@font-face{font-family:NexusSans;font-style:italic;font-weight:700;src:url(../webfonts/nexussanswebpro-bolditalic.woff) format("woff")}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html, body { height: 100%; }
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFFFFF;
+    font-family: 'NexusSerif','Georgia',serif;
+    font-size:12px;
+    text-transform:uppercase;
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+#logo{ max-width: 35%; }
+.button {
+    background-color: #F56C00 ;
+    border: none;
+    color: white !important;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.button.blue { background-color: #007398;  }
+
+#myImage { margin: 20px; max-height: 280px;}
+#foto_container { display: none; }
+.cadastro { padding-top: 30px; display: none; }
+.cadastro input { border: 0; border: 1px solid #555; padding: 10px 10px; }
+.cadastro h3 { color: #53565A; }
+#offline_message { display: none; position: fixed; top: 0; padding: 50% 30px 0; line-height: 30px; background-color: white; height: 100%; left: 0; color: #53565A; background-image: url('../img/offline.svg'); background-repeat: no-repeat; background-position: center; background-size: 50%; }
+#step2 { display: none; }
+
+.d-table .d-table-cell { vertical-align: middle; }

@@ -1,0 +1,61 @@
+{
+  "_from": "cordova-instagram-plugin",
+  "_id": "cordova-instagram-plugin@0.5.7",
+  "_inBundle": false,
+  "_integrity": "sha512-PTHA56TF30AdrwWaQuSsvwyusEAbhDNB0wRUGd4ZBzicTB7PsakIK5xeMe9yCoWMHTb+sDKLTS8H+XpsqZX66g==",
+  "_location": "/cordova-instagram-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-instagram-plugin",
+    "name": "cordova-instagram-plugin",
+    "escapedName": "cordova-instagram-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-instagram-plugin/-/cordova-instagram-plugin-0.5.7.tgz",
+  "_shasum": "8584c6b02e235fd4d9bc26dbd9d5057127bbb9fa",
+  "_spec": "cordova-instagram-plugin",
+  "_where": "D:\\HTTP\\APPS\\photoShare",
+  "author": {
+    "name": "Vlad Stirbu"
+  },
+  "bugs": {
+    "url": "https://github.com/vstirbu/InstagramPlugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-instagram-plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Share the content of a canvas element or a dataUrl encoded image using the Instagram application for iOS and Android.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/vstirbu/InstagramPlugin#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-instagram-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vstirbu/InstagramPlugin.git"
+  },
+  "version": "0.5.7"
+}

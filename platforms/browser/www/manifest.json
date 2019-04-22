@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "ELSEVIER",
+  "short_name": "ELSEVIER",
+  "version": "com.elsevier.photoshare",
+  "description": "Aplicativo para campanha",
+  "author": "Alex Gomes - Agência EPK",
+  "icons": [],
+  "start_url": "index.html"
+}

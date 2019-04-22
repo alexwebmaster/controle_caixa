@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>ELSEVIER</title>
+    </head>
+    <body>
+
+        <div id="offline_message">
+            <h1>Este aplicativo precisa de internet para funcionar.</h1>
+        </div>
+
+        <div class="h-100 w-100 d-table">
+            <div class="d-table-row h-40 w-100">
+                <div class="d-table-cell">
+                    <img src="img/logo.png" id="logo">
+                </div>
+            </div>
+            <div class="d-table-row h-60 w-100">
+                <div class="d-table-cell">
+                    <div id="step1" class="cadastro">
+                        <form id="form_cadastro">
+                            <h3>Cadastro</h3>
+                            <div>
+                                <p><input type="text" name="nome" id="nome" value="" placeholder="Nome" /></p>
+                                <p><input type="text" name="email" id="email" value="" placeholder="Email" /></p>
+                                <p><a class="button" id="take_foto">TIRAR FOTO</a></p>
+                                <p style="font-size: 8px; padding: 0px 15px;">Ao clicar em "tirar foto" você concorda em receber e-mails e comunicados da Elsevier Brasil.</p>
+                            </div>
+                        </form>
+                    </div>
+                    <p>
+                        <a class="button blue mt-3" id="novo_cadastro">
+                            <img class="mr-2" style="max-width: 18px;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQyIDQyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MiA0MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8cG9seWdvbiBwb2ludHM9IjQyLDE5IDIzLDE5IDIzLDAgMTksMCAxOSwxOSAwLDE5IDAsMjMgMTksMjMgMTksNDIgMjMsNDIgMjMsMjMgNDIsMjMgIiBmaWxsPSIjRkZGRkZGIi8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+                            NOVO CADASTRO
+                        </a>
+                    </p>                    
+                    <div id="step2">
+                        <img src="" id="myImage" /><br>
+                        <a class="button blue" id="reset_cadastro">
+                            <img class="mr-2" style="max-width: 18px;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im04OC42LDEyMS4zYzAuOCwwLjggMS44LDEuMiAyLjksMS4yczIuMS0wLjQgMi45LTEuMmMxLjYtMS42IDEuNi00LjIgMC01LjhsLTUxLTUxIDUxLTUxYzEuNi0xLjYgMS42LTQuMiAwLTUuOHMtNC4yLTEuNi01LjgsMGwtNTQsNTMuOWMtMS42LDEuNi0xLjYsNC4yIDAsNS44bDU0LDUzLjl6IiBmaWxsPSIjRkZGRkZGIi8+CiAgPC9nPgo8L3N2Zz4K" />
+                        </a>
+                        <a class="button" id="share_foto">
+                            <img class="mr-2" style="max-width: 18px;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4MS42IDQ4MS42IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODEuNiA0ODEuNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxwYXRoIGQ9Ik0zODEuNiwzMDkuNGMtMjcuNywwLTUyLjQsMTMuMi02OC4yLDMzLjZsLTEzMi4zLTczLjljMy4xLTguOSw0LjgtMTguNSw0LjgtMjguNGMwLTEwLTEuNy0xOS41LTQuOS0yOC41bDEzMi4yLTczLjggICBjMTUuNywyMC41LDQwLjUsMzMuOCw2OC4zLDMzLjhjNDcuNCwwLDg2LjEtMzguNiw4Ni4xLTg2LjFTNDI5LDAsMzgxLjUsMHMtODYuMSwzOC42LTg2LjEsODYuMWMwLDEwLDEuNywxOS42LDQuOSwyOC41ICAgbC0xMzIuMSw3My44Yy0xNS43LTIwLjYtNDAuNS0zMy44LTY4LjMtMzMuOGMtNDcuNCwwLTg2LjEsMzguNi04Ni4xLDg2LjFzMzguNyw4Ni4xLDg2LjIsODYuMWMyNy44LDAsNTIuNi0xMy4zLDY4LjQtMzMuOSAgIGwxMzIuMiw3My45Yy0zLjIsOS01LDE4LjctNSwyOC43YzAsNDcuNCwzOC42LDg2LjEsODYuMSw4Ni4xczg2LjEtMzguNiw4Ni4xLTg2LjFTNDI5LjEsMzA5LjQsMzgxLjYsMzA5LjR6IE0zODEuNiwyNy4xICAgYzMyLjYsMCw1OS4xLDI2LjUsNTkuMSw1OS4xcy0yNi41LDU5LjEtNTkuMSw1OS4xcy01OS4xLTI2LjUtNTkuMS01OS4xUzM0OS4xLDI3LjEsMzgxLjYsMjcuMXogTTEwMCwyOTkuOCAgIGMtMzIuNiwwLTU5LjEtMjYuNS01OS4xLTU5LjFzMjYuNS01OS4xLDU5LjEtNTkuMXM1OS4xLDI2LjUsNTkuMSw1OS4xUzEzMi41LDI5OS44LDEwMCwyOTkuOHogTTM4MS42LDQ1NC41ICAgYy0zMi42LDAtNTkuMS0yNi41LTU5LjEtNTkuMWMwLTMyLjYsMjYuNS01OS4xLDU5LjEtNTkuMXM1OS4xLDI2LjUsNTkuMSw1OS4xQzQ0MC43LDQyOCw0MTQuMiw0NTQuNSwzODEuNiw0NTQuNXoiIGZpbGw9IiNGRkZGRkYiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+                            COMPARTILHAR
+                        </a>
+                    </div>                
+                </div>                
+            </div>
+        </div>
+
+        <textarea id="temp_data" style="display: none;"></textarea>
+        <textarea id="temp_tag" style="display: none;"></textarea>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <!-- cursos: farmácia, nutrição, medicina, outro -->
+    </body>
+</html>
