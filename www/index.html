@@ -31,8 +31,10 @@
                 <h2>Produtos</h2>
 
                 <form name="form_vendas">
-                    <label for="text-basic">Text input:</label>
-                    <input type="text" name="text-basic" id="text-basic" value="">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" value="">
+                    <label for="preco">Preço:</label>
+                    <input type="text" name="preco" id="preco" value="">
                 </form>
             </div><!-- /content -->
 
@@ -47,8 +49,28 @@
             <div role="main" class="ui-content">
                 <h2>Vendas</h2>
                 <form name="form_vendas">
+                  <div class="ui-field-contain">
                     <label for="text-basic">Text input:</label>
                     <input type="text" name="text-basic" id="text-basic" value="">
+                    <label for="produtos">Produtos:</label>
+                    <select class="select-basic" name="produtos" id="produtos">
+                      <option value="X">Produto X</option>
+                      <option value="Y">Produto Y</option>
+                      <option value="Z">Produto Z</option>
+                    </select>
+                  </div>
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" name="quantidade" id="quantidade" value="">
+                    <label for="total">Total:</label>
+                    <input type="number" name="total" id="total" value="">
+                  <div class="ui-field-contain">
+                    <label for="pagamento">Forma de Pagamento:</label>
+                    <select class="select-basic" name="pagamento" id="pagamento">
+                      <option value="dinheiro">Dinheiro</option>
+                      <option value="cartao-credito">Débito</option>
+                      <option value="cartao-debito">Crédito</option>
+                    </select>
+                  </div>
                 </form>
                 <p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to page "one"</a></p>
 
@@ -60,7 +82,7 @@
         </div><!-- /page vendas -->
 
 
-        <div id="data"> 
+        <div id="data">
             <textarea id="temp_produtos" ></textarea>
             <textarea id="temp_vendas" ></textarea>
         </div>
